@@ -1,0 +1,7 @@
+F:\Programming\File programming\C#\Lesson3_exercise7\Lesson3_exercise7\obj\Debug\Lesson3_exercise7.csproj.AssemblyReference.cache
+F:\Programming\File programming\C#\Lesson3_exercise7\Lesson3_exercise7\obj\Debug\Lesson3_exercise7.csproj.CoreCompileInputs.cache
+F:\Programming\File programming\C#\Lesson3_exercise7\Lesson3_exercise7\bin\Debug\Lesson3_exercise7.exe.config
+F:\Programming\File programming\C#\Lesson3_exercise7\Lesson3_exercise7\bin\Debug\Lesson3_exercise7.exe
+F:\Programming\File programming\C#\Lesson3_exercise7\Lesson3_exercise7\bin\Debug\Lesson3_exercise7.pdb
+F:\Programming\File programming\C#\Lesson3_exercise7\Lesson3_exercise7\obj\Debug\Lesson3_exercise7.exe
+F:\Programming\File programming\C#\Lesson3_exercise7\Lesson3_exercise7\obj\Debug\Lesson3_exercise7.pdb
