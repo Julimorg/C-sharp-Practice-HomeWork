@@ -1,0 +1,14 @@
+D:\Programming\C#\C-sharp-\Exercise1\Practice1\bin\Debug\net6.0\Practice1.exe
+D:\Programming\C#\C-sharp-\Exercise1\Practice1\bin\Debug\net6.0\Practice1.deps.json
+D:\Programming\C#\C-sharp-\Exercise1\Practice1\bin\Debug\net6.0\Practice1.runtimeconfig.json
+D:\Programming\C#\C-sharp-\Exercise1\Practice1\bin\Debug\net6.0\Practice1.dll
+D:\Programming\C#\C-sharp-\Exercise1\Practice1\bin\Debug\net6.0\Practice1.pdb
+D:\Programming\C#\C-sharp-\Exercise1\Practice1\obj\Debug\net6.0\Practice1.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programming\C#\C-sharp-\Exercise1\Practice1\obj\Debug\net6.0\Practice1.AssemblyInfoInputs.cache
+D:\Programming\C#\C-sharp-\Exercise1\Practice1\obj\Debug\net6.0\Practice1.AssemblyInfo.cs
+D:\Programming\C#\C-sharp-\Exercise1\Practice1\obj\Debug\net6.0\Practice1.csproj.CoreCompileInputs.cache
+D:\Programming\C#\C-sharp-\Exercise1\Practice1\obj\Debug\net6.0\Practice1.dll
+D:\Programming\C#\C-sharp-\Exercise1\Practice1\obj\Debug\net6.0\refint\Practice1.dll
+D:\Programming\C#\C-sharp-\Exercise1\Practice1\obj\Debug\net6.0\Practice1.pdb
+D:\Programming\C#\C-sharp-\Exercise1\Practice1\obj\Debug\net6.0\Practice1.genruntimeconfig.cache
+D:\Programming\C#\C-sharp-\Exercise1\Practice1\obj\Debug\net6.0\ref\Practice1.dll

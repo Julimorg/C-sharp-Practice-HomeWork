@@ -1,0 +1,14 @@
+D:\Programming\C#\C-sharp-\Lesson2_Exercise6\Lesson2_Exercise6\bin\Debug\net6.0\Lesson2_Exercise6.exe
+D:\Programming\C#\C-sharp-\Lesson2_Exercise6\Lesson2_Exercise6\bin\Debug\net6.0\Lesson2_Exercise6.deps.json
+D:\Programming\C#\C-sharp-\Lesson2_Exercise6\Lesson2_Exercise6\bin\Debug\net6.0\Lesson2_Exercise6.runtimeconfig.json
+D:\Programming\C#\C-sharp-\Lesson2_Exercise6\Lesson2_Exercise6\bin\Debug\net6.0\Lesson2_Exercise6.dll
+D:\Programming\C#\C-sharp-\Lesson2_Exercise6\Lesson2_Exercise6\bin\Debug\net6.0\Lesson2_Exercise6.pdb
+D:\Programming\C#\C-sharp-\Lesson2_Exercise6\Lesson2_Exercise6\obj\Debug\net6.0\Lesson2_Exercise6.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programming\C#\C-sharp-\Lesson2_Exercise6\Lesson2_Exercise6\obj\Debug\net6.0\Lesson2_Exercise6.AssemblyInfoInputs.cache
+D:\Programming\C#\C-sharp-\Lesson2_Exercise6\Lesson2_Exercise6\obj\Debug\net6.0\Lesson2_Exercise6.AssemblyInfo.cs
+D:\Programming\C#\C-sharp-\Lesson2_Exercise6\Lesson2_Exercise6\obj\Debug\net6.0\Lesson2_Exercise6.csproj.CoreCompileInputs.cache
+D:\Programming\C#\C-sharp-\Lesson2_Exercise6\Lesson2_Exercise6\obj\Debug\net6.0\Lesson2_Exercise6.dll
+D:\Programming\C#\C-sharp-\Lesson2_Exercise6\Lesson2_Exercise6\obj\Debug\net6.0\refint\Lesson2_Exercise6.dll
+D:\Programming\C#\C-sharp-\Lesson2_Exercise6\Lesson2_Exercise6\obj\Debug\net6.0\Lesson2_Exercise6.pdb
+D:\Programming\C#\C-sharp-\Lesson2_Exercise6\Lesson2_Exercise6\obj\Debug\net6.0\Lesson2_Exercise6.genruntimeconfig.cache
+D:\Programming\C#\C-sharp-\Lesson2_Exercise6\Lesson2_Exercise6\obj\Debug\net6.0\ref\Lesson2_Exercise6.dll
