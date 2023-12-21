@@ -7,19 +7,58 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Grid>
-            <ListBox Name="listBox1" Margin="101,51,400,133">
-                <ListBoxItem Content="Coffie"></ListBoxItem>
-                <ListBoxItem Content="Tea"></ListBoxItem>
-                <ListBoxItem Content="Orange Juice"></ListBoxItem>
-                <ListBoxItem Content="Milk"></ListBoxItem>
-                <ListBoxItem Content="Iced Tea"></ListBoxItem>
-                <ListBoxItem Content="Mango Shake"></ListBoxItem>
-            </ListBox>
-            <Button Content="Add Item" HorizontalAlignment="Left" Height="25" Margin="192,26,0,0" VerticalAlignment="Top" Width="102" Click="Button_Click"/>
-            <Button Content="Remove Item" HorizontalAlignment="Left" Height="25" Margin="299,26,0,0" VerticalAlignment="Top" Width="101" Click="Button_Click_1"/>
-            <TextBox x:Name="TextBox1" HorizontalAlignment="Left" Height="25" Margin="101,26,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="91"/>
-        </Grid>
-
+        <ListBox Name="listBox1" Margin="171,65,330,119">
+            <ListBoxItem Background="#FFE84414">
+                <CheckBox Name="CoffieCheckBox">
+                    <StackPanel Orientation="Horizontal">
+                    <Image Source="/coffie.jpg" Height="30"></Image>
+                    <TextBlock Text="Coffie"></TextBlock>
+                </StackPanel>
+                </CheckBox>
+            </ListBoxItem>
+            <ListBoxItem Background="Coral">
+                <CheckBox Name="TeaCheckBox">
+                    <StackPanel Orientation="Horizontal">
+                        <Image Source="/coffie.jpg" Height="30"></Image>
+                        <TextBlock Text="Tea"></TextBlock>
+                    </StackPanel>
+                </CheckBox>
+            </ListBoxItem>
+            <ListBoxItem Background="Beige">
+                <CheckBox Name="JuiceCheckBox">
+                    <StackPanel Orientation="Horizontal">
+                        <Image Source="/coffie.jpg" Height="30"></Image>
+                        <TextBlock Text="OrangeJuice"></TextBlock>
+                    </StackPanel>
+                </CheckBox>
+            </ListBoxItem>
+            <ListBoxItem Background="Aqua">
+                <CheckBox Name="MilkCheckBox">
+                    <StackPanel Orientation="Horizontal">
+                        <Image Source="/coffie.jpg" Height="30"></Image>
+                        <TextBlock Text="Milk"></TextBlock>
+                    </StackPanel>
+                </CheckBox>
+            </ListBoxItem>
+            <ListBoxItem Background="Chartreuse">
+                <CheckBox Name="IceTeaCheckBox">
+                    <StackPanel Orientation="Horizontal">
+                        <Image Source="/coffie.jpg" Height="30"></Image>
+                        <TextBlock Text="Ice Tea"></TextBlock>
+                    </StackPanel>
+                </CheckBox>
+            </ListBoxItem>
+            <ListBoxItem Background="CadetBlue">
+                <CheckBox Name="MangoCheckBox">
+                    <StackPanel Orientation="Horizontal">
+                        <Image Source="/coffie.jpg" Height="30"></Image>
+                        <TextBlock Text="Mango Shake"></TextBlock>
+                    </StackPanel>
+                </CheckBox>
+            </ListBoxItem>
+        </ListBox>
+        <TextBox x:Name="TextBox1" HorizontalAlignment="Left" Margin="171,42,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <Button Content="Add Item" HorizontalAlignment="Left" Margin="319,40,0,0" VerticalAlignment="Top" Width="81" Click="Button_Click"/>
+        <Button Content="Remove Item" HorizontalAlignment="Left" Margin="406,40,0,0" VerticalAlignment="Top" Width="99" Click="Button_Click_1"/>
     </Grid>
 </Window>

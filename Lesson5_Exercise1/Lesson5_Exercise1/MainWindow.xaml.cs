@@ -1,4 +1,8 @@
-﻿using System.Text;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
@@ -23,7 +27,7 @@ namespace Lesson5_Exercise1
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            listBox1.Items.Add(TextBox1.Text);
+           listBox1.Items.Add(TextBox1.Text);   
         }
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
