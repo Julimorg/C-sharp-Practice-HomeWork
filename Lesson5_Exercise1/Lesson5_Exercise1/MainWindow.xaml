@@ -11,7 +11,7 @@
             <ListBoxItem Background="#FFE84414">
                 <CheckBox Name="CoffieCheckBox">
                     <StackPanel Orientation="Horizontal">
-                    <Image Source="/coffie.jpg" Height="30"></Image>
+                    <Image Source="/Coffee.jpg" Height="30"></Image>
                     <TextBlock Text="Coffie"></TextBlock>
                 </StackPanel>
                 </CheckBox>
@@ -19,7 +19,7 @@
             <ListBoxItem Background="Coral">
                 <CheckBox Name="TeaCheckBox">
                     <StackPanel Orientation="Horizontal">
-                        <Image Source="/coffie.jpg" Height="30"></Image>
+                        <Image Source="/tea.jpg" Height="30"></Image>
                         <TextBlock Text="Tea"></TextBlock>
                     </StackPanel>
                 </CheckBox>
@@ -27,7 +27,7 @@
             <ListBoxItem Background="Beige">
                 <CheckBox Name="JuiceCheckBox">
                     <StackPanel Orientation="Horizontal">
-                        <Image Source="/coffie.jpg" Height="30"></Image>
+                        <Image Source="/orangeJuice.jpg" Height="30"></Image>
                         <TextBlock Text="OrangeJuice"></TextBlock>
                     </StackPanel>
                 </CheckBox>
@@ -35,7 +35,7 @@
             <ListBoxItem Background="Aqua">
                 <CheckBox Name="MilkCheckBox">
                     <StackPanel Orientation="Horizontal">
-                        <Image Source="/coffie.jpg" Height="30"></Image>
+                        <Image Source="/milk.jpg" Height="30"></Image>
                         <TextBlock Text="Milk"></TextBlock>
                     </StackPanel>
                 </CheckBox>
@@ -43,7 +43,7 @@
             <ListBoxItem Background="Chartreuse">
                 <CheckBox Name="IceTeaCheckBox">
                     <StackPanel Orientation="Horizontal">
-                        <Image Source="/coffie.jpg" Height="30"></Image>
+                        <Image Source="/IceTea.jpeg" Height="30"></Image>
                         <TextBlock Text="Ice Tea"></TextBlock>
                     </StackPanel>
                 </CheckBox>
@@ -51,7 +51,7 @@
             <ListBoxItem Background="CadetBlue">
                 <CheckBox Name="MangoCheckBox">
                     <StackPanel Orientation="Horizontal">
-                        <Image Source="/coffie.jpg" Height="30"></Image>
+                        <Image Source="/mango.jpg" Height="30"></Image>
                         <TextBlock Text="Mango Shake"></TextBlock>
                     </StackPanel>
                 </CheckBox>

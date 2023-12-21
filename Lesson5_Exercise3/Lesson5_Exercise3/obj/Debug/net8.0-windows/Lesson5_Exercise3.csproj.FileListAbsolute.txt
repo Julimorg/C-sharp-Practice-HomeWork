@@ -1,4 +1,0 @@
-D:\Programming\C#\C-Sharp Practice\C-sharp-Practice-HomeWork\Lesson5_Exercise3\Lesson5_Exercise3\obj\Debug\net8.0-windows\MainWindow.g.cs
-D:\Programming\C#\C-Sharp Practice\C-sharp-Practice-HomeWork\Lesson5_Exercise3\Lesson5_Exercise3\obj\Debug\net8.0-windows\App.g.cs
-D:\Programming\C#\C-Sharp Practice\C-sharp-Practice-HomeWork\Lesson5_Exercise3\Lesson5_Exercise3\obj\Debug\net8.0-windows\Lesson5_Exercise3_MarkupCompile.cache
-D:\Programming\C#\C-Sharp Practice\C-sharp-Practice-HomeWork\Lesson5_Exercise3\Lesson5_Exercise3\obj\Debug\net8.0-windows\Lesson5_Exercise3_MarkupCompile.lref

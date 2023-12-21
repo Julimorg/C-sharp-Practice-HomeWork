@@ -7,19 +7,19 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Menu x:Name="Menu1" HorizontalAlignment="Left" Height="20" Margin="121,93,0,0" VerticalAlignment="Top" Width="200">
-            <MenuItem Header="_File" Click="MenuItem_Click">
-                <MenuItem Header="_Open" IsChecked="true" InputGestureText="Ctrl+O">
+        <Menu x:Name="Menu1" Margin="50,60,609,324">
+            <MenuItem Header="_File" Click="MenuItem_Click" Height="31">
+                <MenuItem Header="_Open" IsCheckable="true" InputGestureText="Ctrl+O">
                     <MenuItem.ToolTip>
                         <ToolTip>Open a file.</ToolTip>
                     </MenuItem.ToolTip>
                     <MenuItem.Icon>
-                        <Image Source="/Tree.jpg" Width="20" Height="20" />
+                        <Image Source="/licensed-image.jpg" Width="20" Height="20" />
                     </MenuItem.Icon>
                     <MenuItem Header="_Close" IsCheckable="true" />
                 </MenuItem>
-            <MenuItem Header="_Close" IsChecked="true"></MenuItem>
-            <MenuItem Header="_Save" IsChecked="true"></MenuItem>
+                <MenuItem Header="_Close" IsCheckable="true"></MenuItem>
+                <MenuItem Header="_Save" IsCheckable="true"></MenuItem>
                 <Separator />
                 <MenuItem Header="Sub Items">
                     <MenuItem Header="Child1 SubItem" IsCheckable="true" />
@@ -28,6 +28,8 @@
                     </MenuItem>
                 </MenuItem>
             </MenuItem>
+            
         </Menu>
+
     </Grid>
 </Window>
