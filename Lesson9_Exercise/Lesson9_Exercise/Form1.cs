@@ -26,19 +26,19 @@ namespace Lesson9_Exercise
         private void Form1_Load(object sender, EventArgs e)
         {
             // TODO: This line of code loads data into the 'studentDBDataSet.studentdatabase' table. You can move, or remove it, as needed.
-            this.studentdatabaseTableAdapter.Fill(this.studentDBDataSet.studentdatabase);
+            this.studentdatabaseTableAdapter.Fill(this.studentDBDataSet.Student);
             {
-                var db = new StudentDBEntities1();
-                var select = from s in db.studentdatabases select s;
+                var db = new dbLesson9Entities1();
+                var select = from s in db.Students select s;
                 String st = "";
                 foreach (var item in select)
                 {
-                    st = st + "ID: " + item.StudentID.ToString() + System.Environment.NewLine;
-                    st = st + "Name: " + item.StudentName.ToString() +
+                    st = st + "ID: " + item.studentID.ToString() + System.Environment.NewLine;
+                    st = st + "Name: " + item.studentName.ToString() +
                     System.Environment.NewLine;
-                    st = st + "Gender: " + item.StudentGender.ToString() +
+                    st = st + "Gender: " + item.studentGender.ToString() +
                     System.Environment.NewLine;
-                    st = st + "Address: " + item.StudentAddress.ToString() + System.Environment.NewLine;
+                    st = st + "Address: " + item.Address_.ToString() + System.Environment.NewLine;
                 }
                 this.textBox1.Text = st;
                 
@@ -48,59 +48,64 @@ namespace Lesson9_Exercise
         private void UpdateButton_Click(object sender, EventArgs e)
         {
             {
-                var db = new StudentDBEntities1();
-                studentdatabase aStudent;
-                aStudent = db.studentdatabases.Where(d => d.StudentID == 5).First() as studentdatabase;
-                aStudent.StudentName = "Nguyen Van Linh";
+                var db = new dbLesson9Entities1();
+                Student aStudent;
+                aStudent = db.Students.Where(d => d.studentID == 5).First() as Student;
+                aStudent.studentGender = "Nguyen Van Linh";
                 db.SaveChanges();
             }
         }
 
         private void SaveButton_Click(object sender, EventArgs e)
         {
-            var db = new StudentDBEntities1();
-            studentdatabase aStudent;
-            if (db.studentdatabases.Find(5) == null)
+            var db = new dbLesson9Entities1();
+            Student aStudent;
+            if (db.Students.Find(5) == null)
             {
-                aStudent = new studentdatabase();
-                aStudent.StudentID = 5;
-                aStudent.StudentName = "Nguyen Tri Dung";
-                aStudent.StudentGender = "Male";
-                aStudent.StudentAddress = " 11 Le Lai";
-                db.studentdatabases.Add(aStudent);
+                aStudent = new Student();
+                aStudent.studentID = 5;
+                aStudent.studentName = "Nguyen Tri Dung";
+                aStudent.studentGender = "Male";
+                aStudent.Address_ = " 11 Le Lai";
+                db.Students.Add(aStudent);
                 db.SaveChanges();
             }
+            Form1_Load(sender, e);
+
         }
 
         private void DeleteButton_Click(object sender, EventArgs e)
         {
-            var db = new StudentDBEntities1();
-            studentdatabase aStudent;
-            aStudent = db.studentdatabases.Where(d => d.StudentID == 5).First() as studentdatabase;
-            db.studentdatabases.Remove(aStudent);
+            var db = new dbLesson9Entities1();
+            Student aStudent;
+            aStudent = db.Students.Where(d => d.studentID == 5).First() as Student;
+            db.Students.Remove(aStudent);
             db.SaveChanges();
+            Form1_Load(sender , e); 
         }
 
         private void TransactionButton_Click(object sender, EventArgs e)
         {
-            using (StudentDBEntities1 db = new StudentDBEntities1())
+            using (dbLesson9Entities1 db = new dbLesson9Entities1())
             {
-                studentdatabase aStudent;
+                Student aStudent;
                 // add
-                aStudent = new studentdatabase();
-                aStudent.StudentID = 5;
-                aStudent.StudentName = "Nguyen Tri Dung";
-                aStudent.StudentGender = "Male";
-                aStudent.StudentAddress = " 11 Le Lai";
-                db.studentdatabases.Add(aStudent);
+                aStudent = new Student();
+                aStudent.studentID = 5;
+                aStudent.studentName = "Nguyen Tri Dung";
+                aStudent.studentGender = "Male";
+                aStudent.Address_ = " 11 Le Lai";
+                db.Students.Add(aStudent);
                 // update
-                aStudent = db.studentdatabases.Where(d => d.StudentID == 3).First() as studentdatabase;
-                aStudent.StudentName = "Nguyen Van Linh";
+                aStudent = db.Students.Where(d => d.studentID == 4).First() as Student;
+                aStudent.studentName = "Nguyen Van Linh";
                 //delete
-                aStudent = db.studentdatabases.Where(d => d.StudentID == 3).First() as studentdatabase;
-                db.studentdatabases.Remove(aStudent);
+                aStudent = db.Students.Where(d => d.studentID == 4).First() as Student;
+                db.Students.Remove(aStudent);
                 db.SaveChanges();
             }
+            Form1_Load(sender, e);
+
         }
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)

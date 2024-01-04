@@ -12,11 +12,11 @@ namespace Lesson9_Exercise
     using System;
     using System.Collections.Generic;
     
-    public partial class studentdatabase
+    public partial class Student
     {
-        public int StudentID { get; set; }
-        public string StudentName { get; set; }
-        public string StudentGender { get; set; }
-        public string StudentAddress { get; set; }
+        public int studentID { get; set; }
+        public string studentName { get; set; }
+        public string studentGender { get; set; }
+        public string Address_ { get; set; }
     }
 }
