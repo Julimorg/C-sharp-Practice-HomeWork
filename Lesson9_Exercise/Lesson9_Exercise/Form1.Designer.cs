@@ -34,33 +34,29 @@
             this.UpdateButton = new System.Windows.Forms.Button();
             this.DeleteButton = new System.Windows.Forms.Button();
             this.TransactionButton = new System.Windows.Forms.Button();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.studentDBDataSet = new Lesson9_Exercise.StudentDBDataSet();
             this.studentdatabaseBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.studentdatabaseTableAdapter = new Lesson9_Exercise.StudentDBDataSetTableAdapters.studentdatabaseTableAdapter();
-            this.studentIDDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.studentNameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.studentGenderDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.studentAddressDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.studentDBDataSet)).BeginInit();
+            this.studentDBDataSet = new Lesson9_Exercise.StudentDBDataSet();
+            this.studentdatabaseTableAdapter = new Lesson9_Exercise.StudentDBDataSetTableAdapters.StudentTableAdapter();
             ((System.ComponentModel.ISupportInitialize)(this.studentdatabaseBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.studentDBDataSet)).BeginInit();
             this.SuspendLayout();
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(12, 1);
+            this.textBox1.Location = new System.Drawing.Point(183, 37);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(239, 170);
+            this.textBox1.Size = new System.Drawing.Size(623, 208);
             this.textBox1.TabIndex = 0;
             this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // SaveButton
             // 
-            this.SaveButton.Location = new System.Drawing.Point(12, 213);
+            this.SaveButton.Location = new System.Drawing.Point(16, 262);
+            this.SaveButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.SaveButton.Name = "SaveButton";
-            this.SaveButton.Size = new System.Drawing.Size(68, 37);
+            this.SaveButton.Size = new System.Drawing.Size(91, 46);
             this.SaveButton.TabIndex = 1;
             this.SaveButton.Text = "Save";
             this.SaveButton.UseVisualStyleBackColor = true;
@@ -68,9 +64,10 @@
             // 
             // UpdateButton
             // 
-            this.UpdateButton.Location = new System.Drawing.Point(86, 218);
+            this.UpdateButton.Location = new System.Drawing.Point(115, 268);
+            this.UpdateButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.UpdateButton.Name = "UpdateButton";
-            this.UpdateButton.Size = new System.Drawing.Size(82, 32);
+            this.UpdateButton.Size = new System.Drawing.Size(109, 39);
             this.UpdateButton.TabIndex = 2;
             this.UpdateButton.Text = "Update";
             this.UpdateButton.UseVisualStyleBackColor = true;
@@ -78,9 +75,10 @@
             // 
             // DeleteButton
             // 
-            this.DeleteButton.Location = new System.Drawing.Point(174, 214);
+            this.DeleteButton.Location = new System.Drawing.Point(232, 263);
+            this.DeleteButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.DeleteButton.Name = "DeleteButton";
-            this.DeleteButton.Size = new System.Drawing.Size(77, 36);
+            this.DeleteButton.Size = new System.Drawing.Size(103, 44);
             this.DeleteButton.TabIndex = 3;
             this.DeleteButton.Text = "Delete";
             this.DeleteButton.UseVisualStyleBackColor = true;
@@ -88,85 +86,45 @@
             // 
             // TransactionButton
             // 
-            this.TransactionButton.Location = new System.Drawing.Point(74, 256);
+            this.TransactionButton.Location = new System.Drawing.Point(641, 263);
+            this.TransactionButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.TransactionButton.Name = "TransactionButton";
-            this.TransactionButton.Size = new System.Drawing.Size(124, 56);
+            this.TransactionButton.Size = new System.Drawing.Size(165, 69);
             this.TransactionButton.TabIndex = 4;
             this.TransactionButton.Text = "Transaction";
             this.TransactionButton.UseVisualStyleBackColor = true;
             this.TransactionButton.Click += new System.EventHandler(this.TransactionButton_Click);
-            // 
-            // dataGridView1
-            // 
-            this.dataGridView1.AutoGenerateColumns = false;
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.studentIDDataGridViewTextBoxColumn,
-            this.studentNameDataGridViewTextBoxColumn,
-            this.studentGenderDataGridViewTextBoxColumn,
-            this.studentAddressDataGridViewTextBoxColumn});
-            this.dataGridView1.DataSource = this.studentdatabaseBindingSource;
-            this.dataGridView1.Location = new System.Drawing.Point(297, 1);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(443, 170);
-            this.dataGridView1.TabIndex = 5;
-            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
-            // 
-            // studentDBDataSet
-            // 
-            this.studentDBDataSet.DataSetName = "StudentDBDataSet";
-            this.studentDBDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
             // studentdatabaseBindingSource
             // 
             this.studentdatabaseBindingSource.DataMember = "studentdatabase";
             this.studentdatabaseBindingSource.DataSource = this.studentDBDataSet;
             // 
+            // studentDBDataSet
+            // 
+            this.studentDBDataSet.DataSetName = "StudentDBDataSet";
+            this.studentDBDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
             // studentdatabaseTableAdapter
             // 
             this.studentdatabaseTableAdapter.ClearBeforeFill = true;
             // 
-            // studentIDDataGridViewTextBoxColumn
-            // 
-            this.studentIDDataGridViewTextBoxColumn.DataPropertyName = "StudentID";
-            this.studentIDDataGridViewTextBoxColumn.HeaderText = "StudentID";
-            this.studentIDDataGridViewTextBoxColumn.Name = "studentIDDataGridViewTextBoxColumn";
-            // 
-            // studentNameDataGridViewTextBoxColumn
-            // 
-            this.studentNameDataGridViewTextBoxColumn.DataPropertyName = "StudentName";
-            this.studentNameDataGridViewTextBoxColumn.HeaderText = "StudentName";
-            this.studentNameDataGridViewTextBoxColumn.Name = "studentNameDataGridViewTextBoxColumn";
-            // 
-            // studentGenderDataGridViewTextBoxColumn
-            // 
-            this.studentGenderDataGridViewTextBoxColumn.DataPropertyName = "StudentGender";
-            this.studentGenderDataGridViewTextBoxColumn.HeaderText = "StudentGender";
-            this.studentGenderDataGridViewTextBoxColumn.Name = "studentGenderDataGridViewTextBoxColumn";
-            // 
-            // studentAddressDataGridViewTextBoxColumn
-            // 
-            this.studentAddressDataGridViewTextBoxColumn.DataPropertyName = "StudentAddress";
-            this.studentAddressDataGridViewTextBoxColumn.HeaderText = "StudentAddress";
-            this.studentAddressDataGridViewTextBoxColumn.Name = "studentAddressDataGridViewTextBoxColumn";
-            // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.dataGridView1);
+            this.ClientSize = new System.Drawing.Size(1067, 554);
             this.Controls.Add(this.TransactionButton);
             this.Controls.Add(this.DeleteButton);
             this.Controls.Add(this.UpdateButton);
             this.Controls.Add(this.SaveButton);
             this.Controls.Add(this.textBox1);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+         
             ((System.ComponentModel.ISupportInitialize)(this.studentDBDataSet)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.studentdatabaseBindingSource)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -179,14 +137,9 @@
         private System.Windows.Forms.Button UpdateButton;
         private System.Windows.Forms.Button DeleteButton;
         private System.Windows.Forms.Button TransactionButton;
-        private System.Windows.Forms.DataGridView dataGridView1;
         private StudentDBDataSet studentDBDataSet;
         private System.Windows.Forms.BindingSource studentdatabaseBindingSource;
-        private StudentDBDataSetTableAdapters.studentdatabaseTableAdapter studentdatabaseTableAdapter;
-        private System.Windows.Forms.DataGridViewTextBoxColumn studentIDDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn studentNameDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn studentGenderDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn studentAddressDataGridViewTextBoxColumn;
+        private StudentDBDataSetTableAdapters.StudentTableAdapter studentdatabaseTableAdapter;
     }
 }
 

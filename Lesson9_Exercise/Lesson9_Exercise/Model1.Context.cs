@@ -13,10 +13,10 @@ namespace Lesson9_Exercise
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class StudentDBEntities1 : DbContext
+    public partial class dbLesson9Entities1 : DbContext
     {
-        public StudentDBEntities1()
-            : base("name=StudentDBEntities1")
+        public dbLesson9Entities1()
+            : base("name=dbLesson9Entities1")
         {
         }
     
@@ -25,6 +25,6 @@ namespace Lesson9_Exercise
             throw new UnintentionalCodeFirstException();
         }
     
-        public virtual DbSet<studentdatabase> studentdatabases { get; set; }
+        public virtual DbSet<Student> Students { get; set; }
     }
 }
